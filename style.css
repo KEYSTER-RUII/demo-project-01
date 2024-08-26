@@ -99,7 +99,7 @@ span {
     height: 25rem;
     object-fit: cover;
   }
-  .product-detail {
+  .product-details {
     width: 100%;
     max-width: 22.5rem;
     height: 100%;
@@ -122,8 +122,6 @@ span {
   }
 
   .attributions {
-    display: block;
-    position: relative;
     margin-top: 45rem;
   }
 }
