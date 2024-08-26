@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem auto;
+  background-color: rgb(242, 235, 227);
+  max-height: 100dvh;
+}
+
+.product-slip {
+  display: flex;
+  border-radius: 0.8rem;
+  max-width: 40rem;
+  max-height: 30rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.product-image {
+  border-radius: 0.8rem 0rem 0rem 0.8rem;
+  width: 50%;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+  padding: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500px;
+  font-size: medium;
+  color: rgb(108, 114, 137);
+}
+
+.pricing {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.button {
+  display: flex;
+  background-color: rgb(60, 128, 103);
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: medium;
+  justify-content: center;
+}
+
+.button:hover {
+  background-color: rgb(3, 47, 3);
+  cursor: pointer;
+}
+
+span {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.font-format {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: medium;
+  color: rgb(28, 35, 43);
+  font-size: x-large;
+}
+
+.color {
+  color: rgb(60, 128, 103);
+}
+
+.attribution {
+  padding-top: 2rem;
+}
+
+@media (max-width: 375px) {
+  body {
+    margin: 1.5rem auto;
+    position: absolute;
+  }
+  .product-slip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-image {
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    min-width: 22.5rem;
+    height: 25rem;
+    object-fit: cover;
+  }
+  .product-detail {
+    width: 100%;
+    max-width: 22.5rem;
+    height: 100%;
+    min-height: 25rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    padding: 1rem;
+  }
+
+  .button {
+    border-radius: 0.5rem;
+  }
+
+  .pricing {
+    justify-content: flex-start;
+
+    p {
+      margin-right: 1rem;
+    }
+  }
+
+  .attributions {
+    display: block;
+    position: relative;
+    margin-top: 45rem;
+  }
+}
