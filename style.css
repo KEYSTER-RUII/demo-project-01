@@ -88,6 +88,9 @@ span {
   color: rgb(60, 128, 103);
 }
 
+.line-through {
+  text-decoration: line-through;
+}
 .attribution {
   padding-top: 2rem;
 }
