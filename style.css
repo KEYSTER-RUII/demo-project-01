@@ -62,6 +62,7 @@ body {
   font-weight: 700px;
   font-style: medium;
   justify-content: center;
+  border-radius: 0.5rem;
 }
 
 .button:hover {
@@ -80,7 +81,7 @@ span {
   font-weight: 700;
   font-style: medium;
   color: rgb(28, 35, 43);
-  font-size: x-large;
+  font-size: 38px;
 }
 
 .color {
